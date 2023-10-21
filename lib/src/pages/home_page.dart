@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 
-class App extends StatelessWidget{
+class HomePage extends StatelessWidget {
   @override
-  build(BuildContext context){
-    return const Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+  build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Center(
+          child: Text("Contador"),
         ),
-      );
+      ),
+      body: Center(
+        child: Text('Hello World!'),
+      ),
+    );
   }
 }
